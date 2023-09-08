@@ -16,7 +16,7 @@ This API organizes the users shopping list.
 
 - Node.js installed
 - MongoDB instance running:
-Example: Running with Docker
+  Example: Running with Docker
 
 ```
 docker run --name supermarket-list -p 27017:27017 -d mongo
@@ -50,7 +50,7 @@ npm run start:dev
 
 ### Available endpoints
 
-[GET]/list-items
-[POST]/list-items
-[DELETE]/list-items/:id
-[PUT]/list-items/:id
+- [GET]/list-items
+- [POST]/list-items
+- [DELETE]/list-items/:id
+- [PUT]/list-items/:id
